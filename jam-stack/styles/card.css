@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  padding: 1rem
+}
+
+.card {
+  border: solid;
+  width: 15rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: column;
+  height: 10rem;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0);
+}
+
+.card:active {
+  scale: 0.95;
+  transition: ease 100ms;
+}
+
+.card-img-top {
+  width: 10rem;
+}
+
+
+.card-title {}
+
+.card-text {}
